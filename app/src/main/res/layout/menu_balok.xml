@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_menu2">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:text="Balok"
+        android:textColor="#2196F3"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="16sp"
+        android:hint="panjang"
+        android:textColorHint="#2196F3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/lebar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="lebar"
+        android:textColorHint="#2196F3"
+        android:layout_below="@id/panjang"
+        android:layout_marginTop="16dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/lebar"
+        android:layout_marginTop="16sp"
+        android:hint="tinggi"
+        android:textColorHint="#2196F3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnKalkulasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tinggi"
+       android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Calculate"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnKalkulasi"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="Result :"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnKeluar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResult"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="Keluar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

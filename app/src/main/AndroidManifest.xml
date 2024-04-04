@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomMenu"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Menu_Persegi"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Menu_PPanjang"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Menu_Jajargenjang"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Menu_Segititga"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Menu_Lingkaran"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".menu_Kubus"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".menu_Balok"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".menu_Tabung"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".menu_Kerucut"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".menu_Bola"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>
